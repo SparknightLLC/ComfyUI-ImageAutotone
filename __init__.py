@@ -98,7 +98,6 @@ class ImageAutotone:
 				img_array[:, :, channel] = np.clip(img_array[:, :, channel], 0, 255)
 
 			img_array = np.clip(img_array, 0, 255).astype(np.uint8)
-			image = Image.fromarray(img_array)
 
 			out_images.append(img_array)
 
