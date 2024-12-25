@@ -1,0 +1,15 @@
+# pyproject.toml
+[project]
+name = "comfyui-imageautotone" # Unique identifier for your node. Immutable after creation.
+description = "A node for ComfyUI that takes an input image and clips the color channels independently to increase contrast and alter color cast. This is a reinterpretation of PhotoShop's "Auto Tone" algorithm."
+version = "0.0.1" # Custom Node version. Must be semantically versioned.
+license = { file = "LICENSE.txt" }
+dependencies  = [] # Filled in from requirements.txt
+
+[project.urls]
+Repository = "https://github.com/SparknightLLC/ComfyUI-ImageAutotone"
+
+[tool.comfy]
+PublisherId = "sparknight" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "ComfyUI-ImageAutotone" # Display name for the Custom Node. Can be changed later.
+Icon = "https://example.com/icon.png" # SVG, PNG, JPG or GIF (MAX. 800x400px)
